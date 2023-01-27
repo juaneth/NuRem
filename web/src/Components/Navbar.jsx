@@ -9,7 +9,7 @@ function Navbar() {
   return (
     <div className="navbar text-white sticky top-0 p-0 z-50 bg-neutral">
       <div className="px-5 text-center align-middle draggable">
-        <h1 className="font-bold text-[12pt] italic">Solent Mediation</h1>
+        <h1 className="font-bold text-[12pt] italic">NuRem</h1>
       </div>
       <div className="tabs space-x-2 items-center">
         <Link
