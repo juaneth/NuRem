@@ -6,7 +6,7 @@ import {
   getAuth,
   GoogleAuthProvider,
   GithubAuthProvider,
-  signInWithPopup,
+  signInWithRedirect,
 } from "firebase/auth";
 
 const auth = getAuth();
@@ -24,7 +24,7 @@ function Login() {
               onClick={() => {
                 const provider = new GoogleAuthProvider();
 
-                signInWithPopup(auth, provider)
+                signInWithRedirect(auth, provider)
                   .then((result) => {
                     // This gives you a Google Access Token. You can use it to access the Google API.
                     const credential =
@@ -55,7 +55,7 @@ function Login() {
               onClick={() => {
                 const provider = new GithubAuthProvider();
 
-                signInWithPopup(auth, provider)
+                signInWithRedirect(auth, provider)
                   .then((result) => {
                     // This gives you a Google Access Token. You can use it to access the Google API.
                     const credential =
