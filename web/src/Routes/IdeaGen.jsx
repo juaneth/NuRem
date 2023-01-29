@@ -14,7 +14,7 @@ const auth = getAuth();
 function IdeaGen() {
   return (
     <>
-      
+      <h1>IDEAGEN</h1>
     </>
   );
 }

@@ -21,11 +21,14 @@ function Home() {
           <p className="opacity-75">NuRem Developer Tools</p>
         </div>
 
-        <div className="p-8 bg-neutral/80 flex-grow transition-all hover:bg-black hover:shadow-lg hover:-translate-y-5 hover:z-50">
+        <Link
+          to="/IdeaGen"
+          className="p-8 bg-neutral/80 flex-grow transition-all hover:bg-black hover:shadow-lg hover:-translate-y-5 hover:z-50"
+        >
           <h1 className="text-xl text-accent">IdeaGen</h1>
 
           <p className="opacity-75">Generate app ideas using AI</p>
-        </div>
+        </Link>
 
         <div className="p-8 bg-neutral/80 flex-grow transition-all hover:bg-black hover:shadow-lg hover:-translate-y-5 hover:z-50">
           <h1 className="text-xl text-accent">Workbook</h1>

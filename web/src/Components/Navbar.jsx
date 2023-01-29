@@ -36,6 +36,15 @@ function Navbar() {
             Home
           </Link>
         </li>
+
+        <li>
+          <Link
+            className="active:bg-primary rounded-lg transition-all py-2"
+            to="/IdeaGen"
+          >
+            IdeaGen
+          </Link>
+        </li>
       </div>
 
       <div className="flex-grow"></div>
