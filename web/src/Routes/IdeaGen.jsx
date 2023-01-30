@@ -14,7 +14,11 @@ const auth = getAuth();
 function IdeaGen() {
   return (
     <>
-      <h1>IDEAGEN</h1>
+      <div className="flex w-full">
+        <div className="">
+          <h1 className="text-2xl font-bold">IdeaGen</h1>
+        </div>
+      </div>
     </>
   );
 }
